@@ -1,0 +1,15 @@
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\bin\Debug\net9.0\Atividade Poo.exe
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\bin\Debug\net9.0\Atividade Poo.deps.json
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\bin\Debug\net9.0\Atividade Poo.runtimeconfig.json
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\bin\Debug\net9.0\Atividade Poo.dll
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\bin\Debug\net9.0\Atividade Poo.pdb
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.AssemblyInfoInputs.cache
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.AssemblyInfo.cs
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.csproj.CoreCompileInputs.cache
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.sourcelink.json
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.dll
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\refint\Atividade Poo.dll
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.pdb
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\Atividade Poo.genruntimeconfig.cache
+C:\Users\23969368839\Documents\Introducao-CSharp\Atividades\Atividade Poo\obj\Debug\net9.0\ref\Atividade Poo.dll
