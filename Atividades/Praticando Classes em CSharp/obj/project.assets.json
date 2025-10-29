@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividades\\PraticandoPOO\\Atividade1_ClasseNormal\\Atividade POO.csproj",
-      "projectName": "Atividade POO",
-      "projectPath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividades\\PraticandoPOO\\Atividade1_ClasseNormal\\Atividade POO.csproj",
+      "projectUniqueName": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividades\\Praticando Classes em CSharp\\Praticando Classes em CSharp.csproj",
+      "projectName": "Praticando Classes em CSharp",
+      "projectPath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividades\\Praticando Classes em CSharp\\Praticando Classes em CSharp.csproj",
       "packagesPath": "C:\\Users\\23969368839\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividades\\PraticandoPOO\\Atividade1_ClasseNormal\\obj\\",
+      "outputPath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividades\\Praticando Classes em CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\23969368839\\AppData\\Roaming\\NuGet\\NuGet.Config"
