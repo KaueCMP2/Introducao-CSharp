@@ -4,21 +4,21 @@ namespace SistemaFuncionariosMVC.Models
 {
     public abstract class Funcionario
     {
-        [Key] //Todo Chave pimaria... Primary key ou PK
+        [Key] // chave primária
         public int Id { get; set; }
 
-        [Required] //todo obriga a passar um atibuto... NOT NULL
-        public string Nome { get; set; }
+        [Required] // obrigar a passar o atributo
+        public string Nome { get; set; } = string.Empty;
 
-        [Range(0, 10000)] //todo define que o salario vai de 0 ate 10000
+        [Range(0, 10000)]
         public double SalarioBase { get; set; }
 
-        public Funcionario(){} //todo primeiro inicializar o metodo construtor vazio
+        public Funcionario() { }
 
-        public Funcionario(string nomeC, double salarioBaseC)
+        public Funcionario(string nomeConstrutor, double salarioBaseConstrutor)
         {
-            Nome = nomeC;
-            SalarioBase = salarioBaseC;
+            Nome = nomeConstrutor;
+            SalarioBase = salarioBaseConstrutor;
         }
 
         public abstract double CalcularSalario();
