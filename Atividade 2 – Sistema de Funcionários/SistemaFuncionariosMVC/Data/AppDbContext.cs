@@ -5,19 +5,20 @@ namespace SistemaFuncionariosMVC.Data
 {
     public class AppDbContext : DbContext
     {
-        //Todo Recebe as opcoes de configuracoes do banco...
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        //todo Direciona a classe (Funcionario) para a tabela (TabelaFuncionario)
+        // Tabela única para todos os tipos de funcionário
         public DbSet<Funcionario> TabelaFuncionario { get; set; }
 
-        //todo Vai sobrescrever o mapeamento do modelo... (Vai ser somente uma tabela para Funcionarios).
-        protected void OnMOdelCreateing(ModelBuilder modelBuilder)
+        // Método corretamente sobrescrito
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Funcionario>() //todo Aqui começamos a configurar a entidade base Funcionario.
-            .HasDiscriminator<string>("Cargo") //todo Cria uma unica tabela diferenciando gerente e vendedor por cargo.
-            .HasValue<Gerente>("Gerente") //todo Quando a instancia for gerente grava gerente em cargo
-            .HasValue<Vendedor>("Vendedor"); //todo Quando a instancia for vendedor grava vendedor em corgo
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Funcionario>()
+                .HasDiscriminator<string>("Cargo")
+                .HasValue<Gerente>("Gerente")
+                .HasValue<Vendedor>("Vendedor");
         }
     }
 }

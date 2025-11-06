@@ -1,0 +1,19 @@
+@model  SistemaFuncionariosMVC.Models.Funcionario
+
+<h2>Cadastrar Funcionario</h2>
+
+<form esp-action="Criar">
+    <label >Nome</label>
+    <input type="text" name="Nome" class="formControl">
+
+    <label>SalarioBase</label>
+    <input type="number" name="SalarioBase" class="formControl" step="0.01"> @*controla a quantidade de casas decimais... nesse caso 2*@
+
+    <label>Cargo</label>
+    <select name="cargo" id="">
+        <option value="Gerente">gerente</option>
+        <option value="Vendedor">Vendedor</option>
+    </select>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>
