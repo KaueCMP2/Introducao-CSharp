@@ -4716,11 +4716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividade 2 – Sistema de Funcionários\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+      "projectUniqueName": "C:\\Users\\23969368839\\Desktop\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
       "projectName": "SistemaFuncionariosMVC",
-      "projectPath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividade 2 – Sistema de Funcionários\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+      "projectPath": "C:\\Users\\23969368839\\Desktop\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
       "packagesPath": "C:\\Users\\23969368839\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividade 2 – Sistema de Funcionários\\SistemaFuncionariosMVC\\obj\\",
+      "outputPath": "C:\\Users\\23969368839\\Desktop\\SistemaFuncionariosMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\23969368839\\AppData\\Roaming\\NuGet\\NuGet.Config"

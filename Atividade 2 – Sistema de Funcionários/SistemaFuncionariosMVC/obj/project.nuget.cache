@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LcK6XpSjzKs=",
+  "dgSpecHash": "A8fXB+Nppww=",
   "success": true,
-  "projectFilePath": "C:\\Users\\23969368839\\Documents\\Introducao-CSharp\\Atividade 2 – Sistema de Funcionários\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+  "projectFilePath": "C:\\Users\\23969368839\\Desktop\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\23969368839\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\23969368839\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

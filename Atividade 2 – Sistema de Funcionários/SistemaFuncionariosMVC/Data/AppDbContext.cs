@@ -13,7 +13,7 @@ namespace SistemaFuncionariosMVC.Data
         // Método corretamente sobrescrito
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
+            // base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Funcionario>()
                 .HasDiscriminator<string>("Cargo")
