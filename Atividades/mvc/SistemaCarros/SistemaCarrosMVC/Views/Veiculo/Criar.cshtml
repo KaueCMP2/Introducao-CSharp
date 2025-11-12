@@ -1,0 +1,21 @@
+    @using Microsoft.AspNetCore.Mvc.Formatters
+    @model SistemaCarrosMVC.Models.Carro
+
+    <h2>Cadastrar Veiculos</h2>
+
+    <form asp-action="Criar">
+        <label>Modelo</label>
+        <input type="text" name="nomeConstrutor" class="form-control">
+
+        <label>Ano</label>
+        <input type="text" name="anoConstrutor" class="form-control">
+
+        <label>Tipo de Veiculo</label>
+
+        <select name="tipoVeiculoConstrutor" class="form-control">
+            <option value="Carro">Técnico</option>
+            <option value="Moto"></option>        
+        </select>
+        
+        <button type="submit" class="btn btn-success">Salvar</button>
+    </form>
