@@ -1,0 +1,20 @@
+@model SistemaJogosMVC.Models.Personagem
+
+<h2>Cadastrar Personagem</h2>
+
+<form asp-action="Criar">
+    <label>Nome: </label>
+    <input type="text" name="nomeConstrutor" class="form-control">
+
+    <label>Nivel: </label>
+    <input type="text" name="nivelConstrutor" class="form-control">
+
+    <label>Tipo: </label>
+
+    <select name="tipoConstrutor" class="form-control">
+        <option value="Guerreiro">Guerreiro</option>
+        <option value="Mago">Mago</option>
+    </select>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+</form>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaAnimaisMVC", "SistemaAnimaisMVC.csproj", "{74B2BA63-1C8E-4C2D-AC69-9DC39E2C3E8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74B2BA63-1C8E-4C2D-AC69-9DC39E2C3E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B2BA63-1C8E-4C2D-AC69-9DC39E2C3E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B2BA63-1C8E-4C2D-AC69-9DC39E2C3E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B2BA63-1C8E-4C2D-AC69-9DC39E2C3E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2FCD57F-2DB5-4EA7-A327-C87EDF7C1207}
+	EndGlobalSection
+EndGlobal

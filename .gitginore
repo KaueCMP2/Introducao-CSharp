@@ -1,0 +1,28 @@
+# Visual Studio / .NET
+bin/
+obj/
+Debug/
+Release/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.db
+*.db-wal
+*.db-shm
+*.exe
+*.dll
+*.pdb
+*.localhistory/
+*.tmp
+*.lock
+*.ide
+
+# Sistema
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/

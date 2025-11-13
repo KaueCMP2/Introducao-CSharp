@@ -1,0 +1,16 @@
+@model SistemaAnimaisMVC.Models.Animal
+
+<h2>Cadastro Animal</h2>
+
+<form asp-action="Criar">
+    <label>Nome</label>
+    <input type="text" name="nomeConstrutor" class="form-control">
+    
+    <label>Especie</label>
+    <select name="tipoConstrutor" class="form-control">
+        <option value="Elefante">Elefante</option>
+        <option value="Leao">Leão</option>
+    </select>
+
+    <button type="submit" class="btn btn-succes">Salvar</button>
+</form>

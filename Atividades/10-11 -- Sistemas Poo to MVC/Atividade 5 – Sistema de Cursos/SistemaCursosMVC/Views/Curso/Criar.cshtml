@@ -1,0 +1,20 @@
+@using Microsoft.AspNetCore.Mvc.Formatters
+@model SistemaCursosMVC.Models.Curso
+
+<h2>Cadastrar Cursos</h2>
+
+<form asp-action="Criar">
+    <label>Nome</label>
+    <input type="text" name="nomeConstor " class="form-control">
+
+    <label>Horas: </label>
+    <input type="text" name="horasConstrutor" class="form-control">
+
+    <label>Tipo de Cursor: </label>
+    <select name="tipoCursoConstrutor" class="form-control">
+        <option value="Tecnico">Técnico</option>
+        <option value="Superior">Superior</option>
+    </select>
+
+    <button type="submit" class="btn btn-succes">Salvar</button>
+</form>
