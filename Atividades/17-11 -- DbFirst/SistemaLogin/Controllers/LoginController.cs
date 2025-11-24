@@ -1,8 +1,5 @@
-using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
 using SistemaLogin.Data;
-using SistemaLogin.Models;
 using SistemaLogin.Services;
 
 namespace SistemaLogin.Controllers
@@ -38,9 +35,10 @@ namespace SistemaLogin.Controllers
                 ViewBag.Erro = "Dados invalidos";
                 return View("Index");
             }
+
             else if (!user.SenhaHash.SequenceEqual(senhaDigitadaHash))
             {
-                ViewBag.Erro = "Dados invalidos";
+                ViewBag.Error = "Dados invalidos";
                 return View("Index");
             }
 
